@@ -7,14 +7,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./FS-104 Chocolate/css/styles.css">
+
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
+integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
+crossorigin="anonymous" 
+referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="./FS-104 Chocolate/css/styles.css">
     <style>
+
      
     </style>
 </head>
 <body>
     <header class="header">
-        <nav header-navigation>
+        <div class="container">
+        <nav class="header-navigation">
             <a class="header-logo" 
             href=""><span class="header-logo-italic">SIMPLY</span> CHOCOLATE
             <img class="header-logo-img"
@@ -54,20 +63,24 @@
                    alt="twitter icon"></a>
             </li>
         </ul>
+    </div>
     </header>
     <main>
         <!---------------- HERO --------------------->
         <section class="hero">
+            <div class="container hero-container">
             <h1 class="hero-title">Treat yourself or a loved one to 
                 our finest ingredients for a moment 
                 of pure delight!</h1>
                 <button type="button" class="hero-btn">Buy now</button> 
                 <a href="" class="hero-made-link">How it’s made</a>
                 <a href="" class="hero-scroll-link">scroll down</a>
+            </div>
         </section>
 
         <!---------------- FEATURES ----------------------->
         <section class="features">
+            <div class="container">
             <h2 class="visually-hidden">Features</h2>
             <ul class="features-list">
                 <li class="features-item">
@@ -83,10 +96,12 @@
                     <p class="features-item-text">We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
                 </li>
             </ul>
+        </div>
         </section>
 
         <!------------------------ TASTE ----------------------->
         <section class="taste">
+            <div class="container">
             <h2 class="taste-title">IT ALL ADDS UP TO ONE EXCEPTIONAL <span>TASTE</span> SENSATION</h2>
         <p class="taste-text">At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one exceptional taste sensation.</p>
         <ul class="taste-list">
@@ -154,6 +169,7 @@
                 <h3 class="taste-subtitle">COCONUT OIL</h3>
             </li>
         </ul>
+    </div>
     </section>
 
      <!-------------------------------- MADE -------------------------------->
@@ -342,6 +358,11 @@
     </ul>
     <button type="button" class="loved-btn">Leave  a review</button>
 </section>
+
+
+
+
+
 </main>
 
 <!------------------------------------------------  FOOTER ------------------------------------------------>

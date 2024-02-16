@@ -2,12 +2,39 @@ body {
      font-family: 'Montserrat', sans-serif;
 }
 
+p,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+    margin-top:  0;
+    margin-bottom: 0;
+    
+}
+
 ul {
     list-style-type: none;   /* none . */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;   /* none ___*/
+}
+
+button {
+    cursor: pointer;          /* рука - hand */ 
+}
+.container {
+    width: 100%;
+    max-width: 1166px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;   /*  centre */  
+    outline: 2px  solid  crimson ;        
 }
 
 .visually-hidden {
@@ -44,6 +71,11 @@ a {
 
 /* ===========  HEADER  ===========  */
 
+.header {
+    padding-top: 24px;
+    padding-bottom: 32px;
+
+}
 
 .header-logo {
 font-weight: 700;                                                   /* font-weight- насиченість шрифта */
@@ -70,7 +102,14 @@ color: black;
 /* ============  HERO  ============ */
 
 .hero {
+    
+    padding-bottom: 80px;
+}
+
+.hero-container {
     background-color: rgba(17, 17, 17, 0.6);
+    border-radius: 30px;
+    padding: 380px 40px 40px 40px;
 }
 
 .hero-title {
@@ -79,7 +118,11 @@ color: black;
     line-height: 1.21;
     letter-spacing: -0.03em;
     color: white;
+    max-width: 484px;
+    margin-bottom: 32px;
 }
+
+
 
 .hero-btn {
     font-family: inherit;    /* наслідування батьківмького елемента  */
@@ -110,6 +153,8 @@ color: black;
 
 .features {
     background-color: #1e1823;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .features-list {
@@ -122,7 +167,8 @@ color: black;
 font-weight: 600;
 font-size: 18px;
 color: white;
-line-height: normal;            /* браузер може приймати рішення розміра строки самостійно */
+line-height: normal;   
+margin-bottom: 18px;         /* браузер може приймати рішення розміра строки самостійно */
 }
 
 .features-item-text {
@@ -138,6 +184,8 @@ color: rgba(255, 255, 255, 0.7);
 /* =================== TASTE ==================== */
 
 .taste {
+    padding-top: 120px;
+    padding-bottom: 60px;
 }
 
 .taste-title {
@@ -148,6 +196,9 @@ letter-spacing: -0.03em;
 text-transform: uppercase;        /* робить заглавними (прописними) усі букви у тексті */
 text-align: center;               /* горизонтальне вирівнювання */
 color: black;
+max-width: 412px;
+margin: 0 auto;
+margin-bottom: 28px;
 }
 
 .taste-title span {
@@ -160,6 +211,9 @@ line-height: 1.29;
 letter-spacing: -0.02em;
 text-align: center;                 /* горизонтальне вирівнювання */
 color: black;
+max-width:  486px;
+margin: 0 auto;
+margin-bottom: 50px;
 }
 
 .taste-list {
@@ -446,4 +500,5 @@ line-height: 1.14;
 letter-spacing: -0.02em;
 color: #fff;
 }
+
 
